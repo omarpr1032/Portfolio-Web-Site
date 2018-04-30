@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<!--Viewport -->
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>Portfolio Web Site</title>
+	<!--CSS-->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+	<!--Header section with logo and title-->
 	<header class="header">
 		<img class="header_logo" src="images/logo.png" alt="logo">
 		<div class="header_inner">
@@ -14,16 +17,20 @@
 			<h2 class="header_subtitle">Photography</h2>
 		</div>
 	</header>
+	
+	<!--Main section with flexbox css style-->
 	<main>
-		<section class="content"> 
-			<section class="welcome">
+		<div class="content">
+			<!--Welcome section with image, title and description-->
+			<div class="welcome">
 				<article>
 					<h3>Welcome to my photo gallery</h3>
 					<p>I want share with you my world through my camera lenses</p>
 				</article>
-			</section>
-				
-			<section class="categories">
+			</div>
+			
+			<!--Categories section to select between different gallery categories -->	
+			<div class="categories">
 				<h4 class="categories_title">Categories <a href="#" class="categories_more">+ more</a></h4>
 				<ul>
 					<li class="categories_item">
@@ -39,9 +46,10 @@
 						<a href="#">Architecture</a>
 					</li>
 				</ul>
-			</section>
+			</div>
 			
-			<section class="latest">
+			<!--Shows the latest four photos added to the website with a thumbnail, title, description and category-->
+			<div class="latest">
 				<h4 class="latest_title">Latest Added <a href="#" class="latest_more">+ more</a></h4>
 				<ul>
 					<li class="latest_item">
@@ -77,18 +85,23 @@
 						<p class="latest_item_category">Portrait</p>
 					</li>				
 				</ul>
-			</section>
-		</section>
+			</div>
+		</div>
 	</main>
+	
+	<!--Footer section -->
 	<footer class="footer">
-		<section class="footer_social">
+		<!--Contact by the different social media platforms-->
+		<div class="footer_social">
 			<a href="#"><img src="images/Facebook.png" class="footer_social_image" alt="facebook"></a>
 			<a href="#"><img src="images/Twitter.png" class="footer_social_image" alt="Twitter"></a>
 			<a href="#"><img src="images/Instagram.png" class="footer_social_image" alt="Instagram"></a>
-		</section>
-		<section class="footer_copyright">
+		</div>
+		
+		<!--Copyrights-->
+		<div class="footer_copyright">
 			<p>Omar P.R. Photograpy © 2018</p>
-		</section>
+		</div>
 	</footer>
 </body>
 </html>
